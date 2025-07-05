@@ -10,3 +10,5 @@
 
 npm run dev para abrir el servidor
 importar el archivo scss al main.js
+
+npm run build para compilar 
