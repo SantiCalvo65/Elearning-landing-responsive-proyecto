@@ -1,0 +1,20 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+@use '../abstracts/mixins' as *;
+@use '../abstracts/variables' as *;
+
+footer.footer-principal {
+    padding: 36px 16px;
+    background-color: $azul;
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        ul{
+            @include reset-list();
+        }
+    }
+}

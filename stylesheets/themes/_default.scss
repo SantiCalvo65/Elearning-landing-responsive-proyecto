@@ -1,0 +1,33 @@
+// -----------------------------------------------------------------------------
+// When having several themes, this file contains everything related to the
+// default one.
+// -----------------------------------------------------------------------------
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+html * {
+    font-family: $primary-font;
+
+}
+
+body {
+    font-size: 16px;
+     @include breakpoint(tablet){
+            background-image: url(../../img/hero-img.png);
+            background-repeat: no-repeat;
+            background-position: 120% 0%;
+            background-size: 400px;
+        }
+
+    @include breakpoint(desktop){
+            background-image: url(../../img/hero-img.png);
+            background-repeat: no-repeat;
+            background-position: 100% -10%;
+            background-size: 550px;
+        }
+}
+
+img {
+    max-width: 100%;
+}
+

@@ -1,0 +1,19 @@
+@use '../abstracts/functions' as *;
+@use '../abstracts/mixins' as *;
+
+.activities {
+background:linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+}
+
+.container {
+    padding-left: 16px;
+    padding-right: 16px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @include breakpoint(desktop){
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

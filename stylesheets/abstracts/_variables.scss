@@ -1,0 +1,30 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+/*BP RESPONSIVE*/
+
+$bp-tablet: 768px;
+$bp-tablet-horizontal: 1024px;
+$bp-desktop:1200px;
+$bp-desktop-xl: 1440px;
+
+
+/*COLORES*/
+$azul-claro: #666CA3;
+$azul: #13183F;
+$gris: #83869A;
+$rosa-oscuro: #F74780;
+$rosa: #FFA7C3;
+$blanco: #FFFFFF;
+$orange: #FF6F48;
+$pink: #F02AA6;
+$blue: #4851FF;
+
+/*DEGRADADOS*/
+$degradado-uno: linear-gradient(180deg, $orange 0.04%, $pink 100%);
+$degradado-dos: linear-gradient(180deg, $blue 0%, $pink 99.92%);
+
+/*FUENTES*/
+
+$primary-font: "Plus Jakarta Sans", sans-serif;

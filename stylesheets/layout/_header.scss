@@ -1,0 +1,26 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+@use '../abstracts/mixins' as *;
+@use '../abstracts/variables' as *;
+
+header.header-principal {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 38px;
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        ul{
+            @include reset-list();
+        }
+    }
+
+    @include breakpoint(desktop){
+        margin-bottom: 70px;
+        
+    }
+}

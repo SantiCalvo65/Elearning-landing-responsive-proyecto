@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+// 1. Vendors
+@use 'vendors/normalize';
+
+// 2. Base stuff
+@use 'base/base';
+@use 'base/fonts' as *;
+@use 'base/helpers';
+
+// 3. Layout-related sections
+@use 'layout/footer';
+@use 'layout/header';
+@use 'layout/container.scss';
+@use './layout/hero.scss';
+@use './layout/activities.scss';
+
+// 4. Components
+@use 'components/button' as *;
+
+// 5. Pages
+@use 'pages/home';
+
+// 6. Themes
+@use 'themes/default';
+@use './abstracts/mixins' as *;
+@use './abstracts/variables' as *;
+
+
